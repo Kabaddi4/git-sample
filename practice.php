@@ -20,7 +20,8 @@ echo $hello.$name.$world;
 
 #課題4
 $tech_boost = "tech";
-echo $tech_boost.' boost';
+$tech_boost .= "boost";
+echo $tech_boost;
 
 #課題5
 $calendar_2018 = [

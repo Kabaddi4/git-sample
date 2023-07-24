@@ -40,9 +40,8 @@ print_r(max_array($arr));
 /*function max_array($arr){
   $max_number = $arr[0];
   //var_dump($max_number);
-  foreach($arr as $a => $b){
+  foreach($arr as $a){
     var_dump($a);
-    var_dump($b);
   }
 
   return $max_number;
