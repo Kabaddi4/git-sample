@@ -27,7 +27,7 @@ echo "\n";
 
 //課題4
 
-function max_array($arr) {
+/*function max_array($arr) {
   $max = $arr;
   return $max;
 }
@@ -35,19 +35,23 @@ function max_array($arr) {
 
 $arr[] = [4,3,5];
 //var_dump($arr);
-print_r(max_array($arr));
+print_r(max_array($arr));*/
 
-/*function max_array($arr){
+function max_array($arr){
   $max_number = $arr[0];
   //var_dump($max_number);
   foreach($arr as $a){
-    var_dump($a);
+    //var_dump($a);
+    if ($a > $max_number) {
+      $max_number = $a;
+    }
   }
 
   return $max_number;
 }
-$test_array = [4,3,5];
-max_array($test_array);*/
+$test_array = [4,3,5,1,2,7];
+echo max_array($test_array);
+echo "\n";
 
 //課題5
 $str = "<h1>hello</h1>";
