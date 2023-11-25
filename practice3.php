@@ -54,17 +54,20 @@ echo max_array($test_array);
 echo "\n";
 
 //課題5
+//strip_tags
 $str = "<h1>hello</h1>";
 echo strip_tags($str);
 echo "\n";
-
+//array_push
 $phone = array('galaxy', 'iphone', 'xperia');
 array_push($phone, 'pixel', 'sharp');
 print_r($phone);
 echo "\n";
-
+//array_merge
 $color1 = ['red', 'blue'];
 $color2 = ['white', 'black'];
-
 $color_mix = array_merge($color1, $color2);
 print_r($color_mix);
+//time,mktime
+
+//date
